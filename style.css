@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    font-family: 'Electrolize', sans-serif;
+}
+header h1 {
+    text-align: center;
+    color:#333;
+}
+
+body {
+    font-family: 'Electrolize', sans-serif;
+    background-color: #333;
+}
+.result {
+    color: #fff;
+    margin: 30px auto;
+    border: 3px #fff solid;
+    width: 200px;
+    padding: 20px;
+    
+    text-align: center;
+    position: relative;
+}
+
+.Player {
+    background-color: red;
+    padding: 2px;
+}
+
+#user {
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    
+}
+
+#computer {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+    
+}
+
+span {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+
+p {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;margin-top: 50px;
+}
+
+.choice {
+    border: 3px #fff solid;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.fa-hand-paper,.fa-hand-scissors,
+.fa-hand-rock {
+    color: #fff;
+    font-size: 150px;
+    text-align: center;
+    
+}
+
+#sr:hover{
+    background-color: #000;
+    border:3px #fff solid;
+}
+#ppr:hover{
+    background-color: #000;
+    border:3px #fff solid;
+}
+
+#rk:hover{
+    background-color: #000;
+    border:3px #fff solid;
+}
