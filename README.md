@@ -10,3 +10,4 @@
     . JavaScript
 
 > Link
+> . <https://r-s-p-game.netlify.app/>
